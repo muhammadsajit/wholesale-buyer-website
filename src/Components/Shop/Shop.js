@@ -13,12 +13,20 @@ const Shop = () => {
         .then(data=>setProducts(data))
     },[cart])
     const handleAddToCart =(product)=>{
-        const newcart =[...cart,product.name];
-        setCart(newcart);
+        if((cart.length<4)){
+            const newcart =[...cart,product.name];
+            setCart(newcart);
+        }
+        else{
+            alert('Can not select above 4 product')
+        }
+        
         
         
        
     }
+    
+   
    
     return (
         <div className='shop-container'>
@@ -26,6 +34,8 @@ const Shop = () => {
                 {
                     products.map(product=><Product product={product}
                         handleAddToCart={handleAddToCart}
+                       
+                        
                     key={product.id}></Product>)
                 }
             </div>
