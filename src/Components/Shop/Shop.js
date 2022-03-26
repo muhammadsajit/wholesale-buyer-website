@@ -11,10 +11,12 @@ const Shop = () => {
         fetch('products.json')
         .then(res =>res.json())
         .then(data=>setProducts(data))
-    },[])
+    },[cart])
     const handleAddToCart =(product)=>{
         const newcart =[...cart,product];
         setCart(newcart);
+        
+       
     }
    
     return (
