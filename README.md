@@ -1,8 +1,12 @@
+<<<<<<< HEAD
+=======
+### lucky-one-muhammadsajit
+>>>>>>> 3428e217d76169182b6cd973a276499a84d2ca91
 
 
  [Live Website Link](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### [Live website link](https://stunning-kleicha-111ef5.netlify.app/)
 
 In the project directory, you can run:
 
