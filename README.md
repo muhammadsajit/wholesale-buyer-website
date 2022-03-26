@@ -1,8 +1,8 @@
-##lucky-one-muhammadsajit
+## lucky-one-muhammadsajit
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## lucky
+## lucky-one
 
 In the project directory, you can run:
 
