@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Live website link(https://stunning-kleicha-111ef5.netlify.app/)
+### [Live website link](https://stunning-kleicha-111ef5.netlify.app/)
 
 In the project directory, you can run:
 
